@@ -14,12 +14,11 @@
     cursor: pointer;
     text-align: center;
 }
+/* Payment Stepper - can manipulate data dynamically */
 .checkoutStepper li:before {
-    content: "1"; 
-/*
+    /* it creates counter variable - dynamically */
     content: counter(step); 
     counter-increment: step; 
-*/
     color: #fff;
     border-radius: 50%;
     background-color: #aaa;
